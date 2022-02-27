@@ -71,11 +71,11 @@
     line-height:25px;
     font-weight: 25px;
     text-decoration: none;
-    width: 300px;
+    width: 388px;
   }
   .header__image{
     position: absolute;
-  top: 166px;
+  top: 147px;
   right: 155px;
   width: 765px;
   height: 608px;
@@ -91,40 +91,52 @@
     
   }
   .description{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-width: 784px;
-    flex-direction: column;
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
+    margin-top:100px;
+    margin-bottom:100px;
+}
 
-  .two-columns__span-accent {
-    font-weight: bold;
-    font-size:24px;
-    line-height: 34px;}
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size:24px;
+  font-weight: bold;
+}
+.two-columns {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width:80%;
+  position: relative;
+  margin-top:0;
+  margin-right:auto;
+  margin-left:auto;
+    /* vertical-align:top; */
+}
 
-  .description__two-columns-brief{
-    position: absolute;
-    bottom: -3px;
-    left: 300px;
-    padding-top: 100px;
-    color: #2F80ED;
-    line-height:1.2;
-    font-size:18px;
-height: 50px;
-    text-decoration: none;
-    list-style-type:none;
-  }
-  .description__two-columns-list{
-    font-size:24px;
-    line-height:34px;
-    margin-top:30px;
-    margin-bottom:30px;
-    list-style-type:none;
-    padding-left: 190px;
-  }
+.description p {
+    margin-top:0;
+}
+
+.two-columns__brief {
+  line-height:1.2;
+  flex-basis: 175px;
+  font-size:18px;
+  color: #2F80ED;
+}
+
+.two-columns__main-text {
+  min-width: 784px;
+  flex-basis: 80%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.two-columns__paragraph{
+  font-size:24px;
+  line-height:34px;
+  margin-bottom:30px;
+  margin-top:30px;
+}
 
   
 
@@ -185,7 +197,7 @@ height: 50px;
     width: 867px;
     height: 637px;
    left: 150px;
-   top: 2375;
+   top: 2294px;
    position: absolute;
    z-index: 100;
 }
@@ -295,7 +307,7 @@ justify-content: space-between;
   position: absolute;
   right:-75px;
   background-size: contain;
-  top:3010;
+  top:2932px;
   animation: rotation 20s linear infinite;
 
 z-index: 7;
