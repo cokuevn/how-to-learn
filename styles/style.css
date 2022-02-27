@@ -71,6 +71,7 @@
     line-height:25px;
     font-weight: 25px;
     text-decoration: none;
+    width: 300px;
   }
   .header__image{
     position: absolute;
