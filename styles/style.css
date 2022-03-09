@@ -283,7 +283,6 @@
 
 .table_theme_dark {
     color: white;
-    z-index: 1;
     width: 1100px;
     z-index: 2;
 }
