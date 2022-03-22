@@ -8,3 +8,11 @@
     opacity: 0.5;
     transition: 0.5s linear;
 }
+
+.footer__column-link:link {
+    color: #fff;
+}
+
+.footer__column-link:visited {
+    color: #fff;
+}
